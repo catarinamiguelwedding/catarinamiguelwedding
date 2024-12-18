@@ -1,0 +1,82 @@
+{
+    "nav": {
+      "home": "Accueil",
+      "story": "Histoire",
+      "infos": "Informations",
+      "gallery": "Galerie"
+    },
+    "header": {
+      "title": "Catarina & Miguel",
+      "subtitle": "Nous Allons Nous Marier",
+      "save_date": "Réservez la date"
+    },
+    "events": {
+      "main_ceremony": "Cérémonie Principale",
+      "wedding_party": "Fête de Mariage",
+      "main_ceremony_details": "Les invités seront accueillis avec des boissons fraîches dès 15h45 suivies de la cérémonie de mariage.",
+      "wedding_party_details": "Boissons et amuse-bouches avec musique, suivis du dîner et de nombreuses surprises!"
+    },
+    "countdown": {
+    "days": "Jour",
+    "hours": "Heure",
+    "minutes": "Minute",
+    "seconds": "Seconde"
+  },
+  "date": {
+  "day_saturday": "Samedi 31",
+  "month_may": "Mai"
+},
+"story": {
+    "header_title": "Histoire du Couple",
+    "greeting": "Bonjour!",
+    "wedding_date": "31 Mai 2025, Quinta Nova do Hespanhol, PORTUGAL",
+    "invitation": "Nous vous invitons à célébrer notre mariage",
+    "groom_name": "Miguel Esteves",
+    "groom_description": "Né et grandi à Barreiro – le joyau caché de l'âge des découvertes ! Alors que d'autres louent Lisbonne et Porto, nous, à Barreiro, savons que la vraie magie s'est produite ici, avec le sel, la construction navale, et, bien sûr, MOI ! En 2016, j'ai fait mes valises pour Paris. En mai 2017, j'ai découvert quelque chose d'encore mieux que de nouveaux continents : Catarina !",
+    "bride_name": "Catarina Borges",
+    "bride_description": "Née à Lisbonne, Catarina a parcouru plus de kilomètres que Miguel ! Dès son plus jeune âge, elle a exploré le monde comme une véritable \"découvreuse,\" vivant dans des endroits aussi divers que la Belgique, le Portugal, l'Arabie Saoudite, la Corée du Sud et, bien sûr, la France. Si le Portugal était pionnier de l'Âge des Découvertes, elle a suivi ces traces — en échangeant les caravelles pour les avions !",
+    "our_story_title": "Notre Histoire",
+    "our_story_description": "Nous n'avions pas besoin de boussoles pour nous trouver... juste une application !",
+    "dating_anniversary_title": "Anniversaire de Rencontre",
+    "dating_anniversary_date": "25 Mai 2017",
+    "dating_anniversary_description": "Après un premier rendez-vous très amusant, nous avons décidé d'en faire un deuxième, cette fois dans un restaurant éthiopien dont Catarina avait entendu parler. L'atmosphère était géniale, la nourriture incroyable, et après le dîner, nous nous sommes embrassés pour la première fois.",    "proposal_title": "Demande en Mariage",
+    "proposal_date": "3 Septembre 2023",
+    "proposal_description": "Pour la demande en mariage, Miguel a profité de notre voyage en Grèce et a fait sa demande à Catarina après avoir lu un poème de Vinicius de Moraes appelé \"Soneto de fidelidade\" sur une plage sombre, éclairée uniquement par les lumières des bateaux."
+  },
+  "faq": {
+    "moreInfos": "Plus d'informations",
+    "title": "FAQ",
+    "getting_there": "Comment se rendre à la Quinta Nova do Hespanhol",
+    "by_car": "En voiture :",
+    "by_bus": "En bus + Taxi :",
+    "bus_details": "Prenez le bus Rede Expressos 044 de \"Lisboa Sete Rios\" à \"Torres Vedras\" - 1 arrêt (45min), puis 18min en taxi depuis Torres Vedras ! Voici le site où vous pouvez acheter les billets de bus :",
+    "hotels": "Hôtels :",
+    "hotel_details": "Notre lieu de réception a un partenariat avec un hôtel local. Si vous réservez ici, informez-les que vous assistez à un mariage à la Quinta Nova do Hespanhol pour bénéficier d'un tarif préférentiel :",
+    "contacts": "Contacts :",
+    "catarina_contact": "Catarina Borges : +33664387792",
+    "miguel_contact": "Miguel Esteves : +33771841087",
+    "gifts": "Cadeaux :",
+    "gifts_details": "Votre présence à notre mariage est le plus beau cadeau que vous puissiez nous offrir 🥰. Cependant, si vous souhaitez marquer l'occasion d'une autre manière, voici notre IBAN :",
+    "iban": "IBAN : FR76 3000 3030 8000 0500 3140 126",
+    "bring_date": "Puis-je venir accompagné(e) ?",
+    "bring_date_details": "Nous aimerions accueillir tout le monde, mais la liste des invités est limitée et tous les participants ont été soigneusement sélectionnés pour que personne ne se sente exclu."
+  }
+,
+"gallery": {
+    "title": "Galerie",
+    "subtitle": "Quelques souvenirs de notre couple",
+    "section_title": "Nos Souvenirs",
+    "section_subtitle": "Galerie du Couple",
+    "quote": "\"Que ce ne soit pas immortel, puisque c'est une flamme, mais que cela soit infini tant que ça dure !\"",
+    "2017": "Rencontre avec les amis de Catarina",
+    "2018": "Selfie à Venise",
+    "2019": "Détente dans un château français",
+    "2020": "Kayak à Dubrovnik",
+    "2021": "L'Arc de Triomphe, Emballé",
+    "2022_lake": "Près d'un lac à Noisy-le-Grand",
+    "2022_rio": "Selfie à Rio de Janeiro, Brésil",
+    "2023_minions": "Fête costumée en Minions",
+    "2024_wedding": "Au mariage de J&H"
+  }
+  }
+  
