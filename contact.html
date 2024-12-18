@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Bora &mdash; casar a Catarina e o Miguel</title>
+	<title>Bora casar a Catarina e o Miguel</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -63,27 +63,51 @@
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
-				</div>
-				<div class="col-xs-10 text-right menu-1">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">Story</a></li>
-						<li class="active"><a href="contact.html">Infos</a></li>
-						<li class="has-dropdown">
-							<a href="gallery.html">Gallery</a>	
-						</li>
-					</ul>
+		<nav class="fh5co-nav" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li class="active"><a href="index.html" data-i18n="nav.home"></a></li>
+							<li><a href="about.html" data-i18n="nav.story"></a></li>
+							<li><a href="contact.html" data-i18n="nav.infos"></a></li>
+							<li>
+								<a href="gallery.html" data-i18n="nav.gallery"></a>
+							</li>
+							<li class="has-dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+									<img src="images/globe.png" alt="Globo" style="width: 20px; height: 20px;">
+									<b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu" style="color: black; font-weight: normal;">
+									<li>
+										<a href="#" data-lang="en" style="color: black; font-weight: normal;">
+											<img src="images/en.png" alt="English" style="width: 20px; margin-right: 5px;">
+											English
+										</a>
+									</li>
+									<li>
+										<a href="#" data-lang="fr" style="color: black; font-weight: normal;">
+											<img src="images/fr.png" alt="Français" style="width: 20px; margin-right: 5px;">
+											Français
+										</a>
+									</li>
+									<li>
+										<a href="#" data-lang="pt" style="color: black; font-weight: normal;">
+											<img src="images/pt.png" alt="Português" style="width: 20px; margin-right: 5px;">
+											Português
+										</a>
+									</li>
+								</ul>
+								
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			
-		</div>
-	</nav>
-
+		</nav>
 	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/jantar_fora_croacia.jpeg);">
 		<div class="overlay"></div>
 		<div class="fh5co-container">
@@ -91,7 +115,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>More infos</h1>
+							<h1 data-i18n="faq.moreInfos">More infos</h1>
 						</div>
 					</div>
 				</div>
@@ -102,38 +126,38 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Faq</h2>
-					<p>How to get to the quinta Nova do Hespanhol</p>
-					<p><strong>By car:</strong></p>
+					<h2 data-i18n="faq.title">Faq</h2>
+					<p data-i18n="faq.getting_there">How to get to the quinta Nova do Hespanhol</p>
+					<strong><p data-i18n="faq.by_car">By car:</p></strong>
 					<div class="storefrontAddresses__map">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3097.926024739495!2d-9.163684924055262!3d39.06259997168925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDAzJzQ1LjQiTiA5wrAwOSc0MC4wIlc!5e0!3m2!1spt-PT!2spt!4v1734453887601!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</div>	
 					</div>
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-							<p><strong>By bus+Taxi:</strong></p>
-							<p>Take the bus Rede Expressos 044 from "Lisboa Sete rios" to "Torres vedras" -1stop (45min) then 18min cab ride from torres vedras! Here is the site where you can buy the bus tickets:</p>
+							<strong><p data-i18n="faq.by_bus">By bus+Taxi:</p></strong>
+							<p data-i18n="faq.bus_details">Take the bus Rede Expressos 044 from "Lisboa Sete rios" to "Torres vedras" -1stop (45min) then 18min cab ride from torres vedras! Here is the site where you can buy the bus tickets:</p>
 						    <p><a href="https://rede-expressos.pt/pt/horarios-bilhetes" target="_blank">Rede Expressos - Tickets and Schedules</a></p>
 						</div>
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-							<p><strong>Hotels:</strong></p>
-							<p>-hotels: our venue has a partnership with a local hotel so if you book these please let them know you will be attending a wedding at quinta nova do hespanhol to get a preferential rate:</p>
+							<strong><p data-i18n="faq.hotels">Hotels:</p></strong>
+							<p data-i18n="faq.hotel_details">-hotels: our venue has a partnership with a local hotel so if you book these please let them know you will be attending a wedding at quinta nova do hespanhol to get a preferential rate:</p>
 						    <p><a href="https://www.stayhotels.pt/torres-vedras-centro/en/" target="_blank">Stay Hotel Torres Vedras Centro</a></p>
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6193.359318424167!2d-9.264443754906264!3d39.09099388673316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19e496181d85f9%3A0xe8027f3d85e1a76!2sStay%20Hotel%20Torres%20Vedras%20Centro!5e0!3m2!1spt-PT!2spt!4v1734454026983!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</div>
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-							<p><strong>Contacts:</strong></p>
+							<p data-i18n="faq.contacts">Contacts:</p>
 							<p>Catarina Borges: +33664387792
 							</p>
 							<p>Miguel Esteves: +33771841087</p>
 						</div>
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-							<p><strong>Gifts:</strong></p>
-							<p>Your presence at our wedding is the greatest gift we could ask for 🥰. However, if you'd like to mark the occasion in another way, you can find our IBAN here.</p>
-							<p>IBAN: FR76 3000 3030 8000 0500 3140 126</p>
+							<p data-i18n="faq.gifts">Gifts:</p>
+							<p data-i18n="faq.gifts_details">Your presence at our wedding is the greatest gift we could ask for 🥰. However, if you'd like to mark the occasion in another way, you can find our IBAN here.</p>
+							<p data-i18n="faq.iban">IBAN: FR76 3000 3030 8000 0500 3140 126</p>
 						</div>
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-							<p><strong>Can I bring a date?</strong></p>
-							<p>We would love to accommodate everyone, but the guest list is limited, and all attendees have been carefully selected to ensure no one feels left out.</p>
+							<p data-i18n="faq.bring_date"><strong>Can I bring a date?</strong></p>
+							<p  data-i18n="faq.bring_date_details" >We would love to accommodate everyone, but the guest list is limited, and all attendees have been carefully selected to ensure no one feels left out.</p>
 						</div>
 			</div>
 		</div>
@@ -168,7 +192,86 @@
 
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script src="https://unpkg.com/i18next@21.6.2/dist/umd/i18next.min.js"></script>
+	<script>
+		const resources = {};
 
+	function loadJSON(lang, callback) {
+	$.getJSON(`locales/${lang}.json`, function (data) {
+		resources[lang] = { translation: data };
+		callback();
+	}).fail(function () {
+		console.error(`Erro ao carregar o arquivo locales/${lang}.json`);
+	});
+	}
+
+	function initializeI18Next(lang) {
+	i18next.init({
+		lng: lang,
+		debug: true,
+		resources
+	}, function (err, t) {
+		if (err) return console.error('Erro no i18next:', err);
+		updateContent();
+		initializeCountdown();
+	});
+	}
+
+	function updateContent() {
+	$('[data-i18n]').each(function () {
+		const key = $(this).data('i18n');
+		$(this).text(i18next.t(key));
+	});
+	}
+
+	function initializeCountdown() {
+	document.querySelector('.simply-countdown-one').innerHTML = '';
+
+	simplyCountdown('.simply-countdown-one', {
+		year: 2025,
+		month: 5,
+		day: 31,
+		hours: 16,
+		minutes: 0,
+		seconds: 0,
+		enableUtc: true,
+		words: {
+		days: i18next.t('countdown.days'),
+		hours: i18next.t('countdown.hours'),
+		minutes: i18next.t('countdown.minutes'),
+		seconds: i18next.t('countdown.seconds')
+		},
+		plural: true
+	});
+	}
+
+	function changeLanguage(lang) {
+	localStorage.setItem('selectedLanguage', lang);
+	loadJSON(lang, function () {
+		initializeI18Next(lang);
+	});
+	}
+
+	const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+	loadJSON(savedLanguage, function () {
+	initializeI18Next(savedLanguage);
+	});
+
+	$(document).on('click', '.dropdown-menu a', function (e) {
+    e.preventDefault();
+    const lang = $(this).data('lang');
+    changeLanguage(lang);
+
+    $(this).closest('.dropdown-menu').parent().removeClass('open');
+});
+$(document).on('click', function (e) {
+    if (!$(e.target).closest('.dropdown').length) {
+        $('.dropdown').removeClass('open');
+    }
+});
+
+
+	</script>
 	</body>
 </html>
 

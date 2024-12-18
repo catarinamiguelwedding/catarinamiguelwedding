@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html class="no-js">
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,22 +7,6 @@
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
-
-  <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
-
-  	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -38,7 +19,10 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-	
+	<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
@@ -53,49 +37,74 @@
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
-				</div>
-				<div class="col-xs-10 text-right menu-1">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li class="active"><a href="about.html">Story</a></li>
-						<li><a href="contact.html">Infos</a></li>
-						<li class="has-dropdown">
-							<a href="gallery.html">Gallery</a>
-						</li>
-					</ul>
+		<nav class="fh5co-nav" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li class="active"><a href="index.html" data-i18n="nav.home"></a></li>
+							<li><a href="about.html" data-i18n="nav.story"></a></li>
+							<li><a href="contact.html" data-i18n="nav.infos"></a></li>
+							<li>
+								<a href="gallery.html" data-i18n="nav.gallery"></a>
+							</li>
+							<li class="has-dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+									<img src="images/globe.png" alt="Globo" style="width: 20px; height: 20px;">
+									<b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu" style="color: black; font-weight: normal;">
+									<li>
+										<a href="#" data-lang="en" style="color: black; font-weight: normal;">
+											<img src="images/en.png" alt="English" style="width: 20px; margin-right: 5px;">
+											English
+										</a>
+									</li>
+									<li>
+										<a href="#" data-lang="fr" style="color: black; font-weight: normal;">
+											<img src="images/fr.png" alt="Français" style="width: 20px; margin-right: 5px;">
+											Français
+										</a>
+									</li>
+									<li>
+										<a href="#" data-lang="pt" style="color: black; font-weight: normal;">
+											<img src="images/pt.png" alt="Português" style="width: 20px; margin-right: 5px;">
+											Português
+										</a>
+									</li>
+								</ul>
+								
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			
-		</div>
-	</nav>
+		</nav>
 
 	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/coupleStory4.jpeg);">
 		<div class="overlay"></div>
 		<div class="fh5co-container">
 			<div class="row">
-				<div class="col-md-6 col-md-offset-2 text-center">
+				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Couple Story</h1>
+							<h1 data-i18n="story.header_title"></h1>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
-
+	
 	<div id="fh5co-couple" class="fh5co-section-gray">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Hello!</h2>
-					<h3>May 31th, 2025 Quinta Nova do hespanhol, PORTUGAL</h3>
-					<p>We invited you to celebrate our wedding</p>
+					<h2 data-i18n="story.greeting">Hello!</h2>
+					<h3 data-i18n="story.wedding_date">May 31th, 2025 Quinta Nova do Hespanhol, PORTUGAL</h3>
+					<p data-i18n="story.invitation">We invited you to celebrate our wedding</p>
 				</div>
 			</div>
 			<div class="couple-wrap animate-box">
@@ -104,32 +113,30 @@
 						<img src="images/miguel_small.jpeg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-groom">
-						<h3>Miguel Esteves</h3>
-						<p>Born and raised in Barreiro – the hidden gem of the Age of Discoveries! While others praise Lisbon and Porto, we in Barreiro know the real magic happened here, with salt, shipbuilding, and, well, <b>ME</b>!
-							In 2016, I packed my bags and headed to Paris. In May 2017, I discovered something even better than new continents: <b>Catarina</b>!
-							</p>
+						<h3 data-i18n="story.groom_name">Miguel Esteves</h3>
+						<p data-i18n="story.groom_description"></p>
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="images/catarina_small.jpeg" alt="groom" class="img-responsive">
+						<img src="images/catarina_small.jpeg" alt="bride" class="img-responsive">
 					</div>
 					<div class="desc-bride">
-						<h3>Catarina Borges</h3>
-						<p>Born in Lisbon, has more miles than <b>Miguel</b>! From an early age, she’s been exploring the world like a true "discoverer," living in places as diverse as Belgium, Portugal, the Saudi Arabia, South Korea, and of course, France. If Portugal was a pioneer in the Age of Discoveries, she definitely followed in those footsteps — only she traded the caravels for airplanes!</p>
+						<h3 data-i18n="story.bride_name">Catarina Borges</h3>
+						<p data-i18n="story.bride_description"></p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
+	
 	<div id="fh5co-couple-story">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Our Story</h2>
-					<p>We didn’t need compasses to find each other... just an app!</p>
+					<h2 data-i18n="story.our_story_title">Our Story</h2>
+					<p data-i18n="story.our_story_description">We didn’t need compasses to find each other... just an app!</p>
 				</div>
 			</div>
 			<div class="row">
@@ -139,11 +146,11 @@
 							<div class="timeline-badge" style="background-image:url(images/couple_anniv.jpeg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Dating anniversary</h3>
-									<span class="date">May 25, 2017</span>
+									<h3 class="timeline-title" data-i18n="story.dating_anniversary_title">Dating anniversary</h3>
+									<span class="date" data-i18n="story.dating_anniversary_date">May 25, 2017</span>
 								</div>
 								<div class="timeline-body">
-									<p>After a really fun first date, we decided to go for a second one, this time at an Ethiopian restaurant that Catarina had heard about. The atmosphere was great, the food was amazing, and after dinner, we shared our first kiss.</p>
+									<p data-i18n="story.dating_anniversary_description"></p>
 								</div>
 							</div>
 						</li>
@@ -151,19 +158,20 @@
 							<div class="timeline-badge" style="background-image:url(images/proposal1.jpeg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Marriage proposal.</h3>
-									<span class="date">September 3, 2023</span>
+									<h3 class="timeline-title" data-i18n="story.proposal_title">Marriage proposal</h3>
+									<span class="date" data-i18n="story.proposal_date">September 3, 2023</span>
 								</div>
 								<div class="timeline-body">
-									<p>For the marriage proposal, Miguel took advantage of our trip to Greece and proposed to Catarina after reading a poem by Vinicius de Moraes called "Soneto de fidelidade" on a dark beach, illuminated only by the lights of the boats.</p>
+									<p data-i18n="story.proposal_description"></p>
 								</div>
 							</div>
 						</li>
-						
-			    	</ul>
+					</ul>
 				</div>
 			</div>
 		</div>
+	</div>
+	
 	</div>
 	
 	</div>
@@ -193,7 +201,86 @@
 
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script src="https://unpkg.com/i18next@21.6.2/dist/umd/i18next.min.js"></script>
+		<script>
+			const resources = {};
+	
+		function loadJSON(lang, callback) {
+		$.getJSON(`locales/${lang}.json`, function (data) {
+			resources[lang] = { translation: data };
+			callback();
+		}).fail(function () {
+			console.error(`Erro ao carregar o arquivo locales/${lang}.json`);
+		});
+		}
+	
+		function initializeI18Next(lang) {
+		i18next.init({
+			lng: lang,
+			debug: true,
+			resources
+		}, function (err, t) {
+			if (err) return console.error('Erro no i18next:', err);
+			updateContent();
+			initializeCountdown();
+		});
+		}
+	
+		function updateContent() {
+		$('[data-i18n]').each(function () {
+			const key = $(this).data('i18n');
+			$(this).text(i18next.t(key));
+		});
+		}
+	
+		function initializeCountdown() {
+		document.querySelector('.simply-countdown-one').innerHTML = '';
+	
+		simplyCountdown('.simply-countdown-one', {
+			year: 2025,
+			month: 5,
+			day: 31,
+			hours: 16,
+			minutes: 0,
+			seconds: 0,
+			enableUtc: true,
+			words: {
+			days: i18next.t('countdown.days'),
+			hours: i18next.t('countdown.hours'),
+			minutes: i18next.t('countdown.minutes'),
+			seconds: i18next.t('countdown.seconds')
+			},
+			plural: true
+		});
+		}
+	
+		function changeLanguage(lang) {
+		localStorage.setItem('selectedLanguage', lang);
+		loadJSON(lang, function () {
+			initializeI18Next(lang);
+		});
+		}
+	
+		const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+		loadJSON(savedLanguage, function () {
+		initializeI18Next(savedLanguage);
+		});
+	
+		$(document).on('click', '.dropdown-menu a', function (e) {
+    e.preventDefault();
+    const lang = $(this).data('lang');
+    changeLanguage(lang);
 
+    $(this).closest('.dropdown-menu').parent().removeClass('open');
+});
+$(document).on('click', function (e) {
+    if (!$(e.target).closest('.dropdown').length) {
+        $('.dropdown').removeClass('open');
+    }
+});
+
+	
+		</script>
 	</body>
 </html>
 

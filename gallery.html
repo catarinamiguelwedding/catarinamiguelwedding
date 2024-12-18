@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Bora &mdash; casar a Catarina e o Miguel</title>
+	<title>Bora casar a Catarina e o Miguel</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -50,26 +50,51 @@
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
-				</div>
-				<div class="col-xs-10 text-right menu-1">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">Story</a></li>
-						<li><a href="contact.html">Infos</a></li>
-						<li class="has-dropdown active">
-							<a href="gallery.html">Gallery</a>
-						</li>
-					</ul>
+		<nav class="fh5co-nav" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li class="active"><a href="index.html" data-i18n="nav.home"></a></li>
+							<li><a href="about.html" data-i18n="nav.story"></a></li>
+							<li><a href="contact.html" data-i18n="nav.infos"></a></li>
+							<li>
+								<a href="gallery.html" data-i18n="nav.gallery"></a>
+							</li>
+							<li class="has-dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+									<img src="images/globe.png" alt="Globo" style="width: 20px; height: 20px;">
+									<b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu" style="color: black; font-weight: normal;">
+									<li>
+										<a href="#" data-lang="en" style="color: black; font-weight: normal;">
+											<img src="images/en.png" alt="English" style="width: 20px; margin-right: 5px;">
+											English
+										</a>
+									</li>
+									<li>
+										<a href="#" data-lang="fr" style="color: black; font-weight: normal;">
+											<img src="images/fr.png" alt="Français" style="width: 20px; margin-right: 5px;">
+											Français
+										</a>
+									</li>
+									<li>
+										<a href="#" data-lang="pt" style="color: black; font-weight: normal;">
+											<img src="images/pt.png" alt="Português" style="width: 20px; margin-right: 5px;">
+											Português
+										</a>
+									</li>
+								</ul>
+								
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			
-		</div>
-	</nav>
+		</nav>
 
 	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/coupleStory2.jpeg);">
 		<div class="overlay"></div>
@@ -78,8 +103,8 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Gallery</h1>
-							<h2>Some of our couple memories</h2>
+							<h1 data-i18n="gallery.title">Gallery</h1>
+							<h2 data-i18n="gallery.subtitle">Some of our couple memories</h2>
 						</div>
 					</div>
 				</div>
@@ -92,9 +117,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Memories</span>
-					<h2>Couple Gallery</h2>
-					<p>"May it not be immortal, since it is a flame But may it be infinite while it last!"</p>
+					<span data-i18n="gallery.section_title">Our Memories</span>
+					<h2  data-i18n="gallery.section_subtitle">Couple Gallery</h2>
+					<p  data-i18n="gallery.quote">"May it not be immortal, since it is a flame But may it be infinite while it last!"</p>
 				</div>
 			</div>
 			<div class="row row-bottom-padded-md">
@@ -105,7 +130,7 @@
 							<a href="images/foto_saida.jpeg" class="color-4">
 								<div class="case-studies-summary">
 									<span>2017</span>
-									<h2>meeting Catarina's friends</h2>
+									<h2 data-i18n="gallery.2017">meeting Catarina's friends</h2>
 								</div>
 							</a>
 						</li>
@@ -114,7 +139,7 @@
 							<a href="images/foto_italia.jpeg" class="color-3">
 								<div class="case-studies-summary">
 									<span>2018</span>
-									<h2>Selfie in Venice</h2>
+									<h2 data-i18n="gallery.2018">Selfie in Venice</h2>
 								</div>
 							</a>
 						</li>
@@ -123,7 +148,7 @@
 							<a href="images/foto_chateau.jpeg" class="color-5">
 								<div class="case-studies-summary">
 									<span>2019</span>
-									<h2>Chilling in a french castle</h2>
+									<h2 data-i18n="gallery.2019">Chilling in a french castle</h2>
 								</div>
 							</a>
 						</li>
@@ -132,7 +157,7 @@
 							<a href="images/kayake_croacia.jpeg" class="color-4">
 								<div class="case-studies-summary">
 									<span>2020</span>
-									<h2>kayaking in Dubrovnik</h2>
+									<h2 data-i18n="gallery.2020">kayaking in Dubrovnik</h2>
 								</div>
 							</a>
 						</li>
@@ -141,7 +166,7 @@
 							<a href="images/foto_arco_triumfo.jpeg" class="color-3">
 								<div class="case-studies-summary">
 									<span>2021</span>
-									<h2>L'Arc du Triomphe, Wrapped</h2>
+									<h2 data-i18n="gallery.2021">L'Arc du Triomphe, Wrapped</h2>
 								</div>
 							</a>
 						</li>
@@ -150,7 +175,7 @@
 							<a href="images/foto_banlieu_paris.jpeg">
 								<div class="case-studies-summary">
 									<span>2022</span>
-									<h2>At a lake in Noisy-le-Grand</h2>
+									<h2  data-i18n="gallery.2022_lake">At a lake in Noisy-le-Grand</h2>
 								</div>
 							</a>
 						</li>
@@ -159,7 +184,7 @@
 							<a href="images/foto_rio.jpeg" class="color-2">
 								<div class="case-studies-summary">
 									<span>2022</span>
-									<h2>selfie in Rio de Janeiro, Brazil</h2>
+									<h2 data-i18n="gallery.2022_rio">selfie in Rio de Janeiro, Brazil</h2>
 								</div>
 							</a>
 						</li>
@@ -168,7 +193,7 @@
 							<a href="images/mascarados_minions.PNG" class="color-6">
 								<div class="case-studies-summary">
 									<span>2023</span>
-									<h2>masked party as minions</h2>
+									<h2 data-i18n="gallery.2023_minions">masked party as minions</h2>
 								</div>
 							</a>
 						</li>
@@ -177,7 +202,7 @@
 							<a href="images/foto_casamento.jpeg" class="color-4">
 								<div class="case-studies-summary">
 									<span>2024</span>
-									<h2>At J&H wedding</h2>
+									<h2 data-i18n="gallery.2024_wedding">At J&H wedding</h2>
 								</div>
 							</a>
 						</li>
@@ -215,7 +240,86 @@
 
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script src="https://unpkg.com/i18next@21.6.2/dist/umd/i18next.min.js"></script>
+	<script>
+		const resources = {};
 
+	function loadJSON(lang, callback) {
+	$.getJSON(`locales/${lang}.json`, function (data) {
+		resources[lang] = { translation: data };
+		callback();
+	}).fail(function () {
+		console.error(`Erro ao carregar o arquivo locales/${lang}.json`);
+	});
+	}
+
+	function initializeI18Next(lang) {
+	i18next.init({
+		lng: lang,
+		debug: true,
+		resources
+	}, function (err, t) {
+		if (err) return console.error('Erro no i18next:', err);
+		updateContent();
+		initializeCountdown();
+	});
+	}
+
+	function updateContent() {
+	$('[data-i18n]').each(function () {
+		const key = $(this).data('i18n');
+		$(this).text(i18next.t(key));
+	});
+	}
+
+	function initializeCountdown() {
+	document.querySelector('.simply-countdown-one').innerHTML = '';
+
+	simplyCountdown('.simply-countdown-one', {
+		year: 2025,
+		month: 5,
+		day: 31,
+		hours: 16,
+		minutes: 0,
+		seconds: 0,
+		enableUtc: true,
+		words: {
+		days: i18next.t('countdown.days'),
+		hours: i18next.t('countdown.hours'),
+		minutes: i18next.t('countdown.minutes'),
+		seconds: i18next.t('countdown.seconds')
+		},
+		plural: true
+	});
+	}
+
+	function changeLanguage(lang) {
+	localStorage.setItem('selectedLanguage', lang);
+	loadJSON(lang, function () {
+		initializeI18Next(lang);
+	});
+	}
+
+	const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+	loadJSON(savedLanguage, function () {
+	initializeI18Next(savedLanguage);
+	});
+
+	$(document).on('click', '.dropdown-menu a', function (e) {
+    e.preventDefault();
+    const lang = $(this).data('lang');
+    changeLanguage(lang);
+
+    $(this).closest('.dropdown-menu').parent().removeClass('open');
+});
+$(document).on('click', function (e) {
+    if (!$(e.target).closest('.dropdown').length) {
+        $('.dropdown').removeClass('open');
+    }
+});
+
+
+	</script>
 
 	</body>
 </html>
