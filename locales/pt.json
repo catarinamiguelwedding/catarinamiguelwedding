@@ -13,8 +13,8 @@
   "events": {
     "main_ceremony": "Cerimónia Principal",
     "wedding_party": "Festa de Casamento",
-    "main_ceremony_details": "Os convidados serão recebidos com bebidas a partir das 15h45, seguidas da cerimónia de casamento.",
-    "wedding_party_details": "Bebidas e entradas ao som de música, seguido do jantar e muitas surpresas!"
+    "main_ceremony_details": "Os convidados serão recebidos com bebidas a partir das 16h. Seguidamente será realizada a cerimónia de casamento.",
+    "wedding_party_details": "Bebidas e entradas ao som de música, seguido do jantar e algumas surpresas!"
   },
   "countdown": {
     "days": "Dia",
@@ -30,19 +30,19 @@
     "header_title": "História do Casal",
     "greeting": "Olá!",
     "wedding_date": "31 de Maio de 2025, Quinta Nova do Hespanhol, PORTUGAL",
-    "invitation": "Convidamos você para celebrar o nosso casamento",
+    "invitation": "Estão convidados para celebrar o nosso casamento",
     "groom_name": "Miguel Esteves",
     "groom_description": "Nascido e criado no Barreiro – a joia escondida da Era dos Descobrimentos! Enquanto outros elogiam Lisboa e Porto, nós, no Barreiro, sabemos que a verdadeira magia aconteceu aqui, com sal, construção naval, e, claro, EU! Em 2016, fiz as malas e fui para Paris. Em Maio de 2017, descobri algo ainda melhor que novos continentes: Catarina!",
     "bride_name": "Catarina Borges",
-    "bride_description": "Nascida em Lisboa, Catarina tem mais milhas que o Miguel! Desde cedo, ela tem explorado o mundo como uma verdadeira \"descobridora,\" vivendo em lugares tão diversos como Bélgica, Portugal, Arábia Saudita, Coreia do Sul e, claro, França. Se Portugal foi pioneiro na Era dos Descobrimentos, ela certamente seguiu esses passos — só trocou as caravelas por aviões!",
+    "bride_description": "Nascida em Lisboa, Catarina tem mais milhas que o Miguel! Desde cedo, tem explorado o mundo como uma verdadeira \"navegadora,\" vivendo em lugares tão diversos como Bélgica, Portugal, Arábia Saudita, Coreia do Sul e, claro, França. Se Portugal foi pioneiro na Era dos Descobrimentos, ela certamente seguiu esses passos — só trocou as caravelas por aviões!",
     "our_story_title": "Nossa História",
-    "our_story_description": "Não precisamos de bússolas para nos encontrar... apenas um aplicativo!",
+    "our_story_description": "Não precisámos de bússolas para nos encontrar... apenas um aplicativo!",
     "dating_anniversary_title": "Aniversário de Namoro",
     "dating_anniversary_date": "25 de Maio de 2017",
-    "dating_anniversary_description": "Depois de um primeiro encontro muito divertido, decidimos ir para um segundo, desta vez em um restaurante etíope que Catarina tinha ouvido falar. O ambiente estava ótimo, a comida estava incrível, e após o jantar, compartilhamos nosso primeiro beijo.",
+    "dating_anniversary_description": "Depois de um primeiro encontro muito divertido, decidimos ir para um segundo, desta vez num restaurante etíope que a Catarina tinha ouvido falar. O ambiente estava ótimo, a comida estava incrível, e após o jantar, demos o nosso primeiro beijo.",
     "proposal_title": "Pedido de Casamento",
     "proposal_date": "3 de Setembro de 2023",
-    "proposal_description": "Para o pedido de casamento, Miguel aproveitou nossa viagem para a Grécia e fez o pedido para Catarina depois de ler um poema de Vinicius de Moraes chamado \"Soneto de fidelidade\" em uma praia escura, iluminada apenas pelas luzes dos barcos."
+    "proposal_description": "O Miguel aproveitou a viagem para a Grécia e fez o pedido de casamento após ler um poema de Vinicius de Moraes intitulado \"Soneto de fidelidade\" numa praia, à noite, iluminada apenas pelas luzes dos barcos."
   },
   "faq": {
     "moreInfos": "Mais informações",
@@ -57,7 +57,7 @@
     "catarina_contact": "Catarina Borges: +33664387792",
     "miguel_contact": "Miguel Esteves: +33771841087",
     "gifts": "Presentes:",
-    "gifts_details": "A sua presença no nosso casamento é o maior presente que poderíamos pedir 🥰. No entanto, se desejar marcar a ocasião de outra forma, aqui está o nosso IBAN:",
+    "gifts_details": "A sua presença no nosso casamento é o maior presente que poderíamos pedir 🥰. Como vivemos em Paris e na nossa casa já temos o essencial, não criámos uma lista de presentes. No entanto, se desejar marcar a ocasião de outra forma, aqui está o nosso IBAN:",
     "iban": "IBAN: FR76 3000 3030 8000 0500 3140 126",
     "bring_date": "Posso levar um acompanhante?",
     "bring_date_details": "Gostaríamos de acolher todos, mas a lista de convidados é limitada e todos foram cuidadosamente selecionados para que ninguém se sinta excluído."
