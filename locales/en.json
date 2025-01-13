@@ -57,7 +57,7 @@
     "hotel_details": "Our venue has a partnership with a local hotel. If you book here, please let them know you will be attending a wedding at Quinta Nova do Hespanhol to get a preferential rate:",
     "contacts": "Contacts:",
     "gifts": "Gifts:",
-    "gifts_details": "Your presence at our wedding is the greatest gift we could ask for 🥰. However, if you'd like to mark the occasion in another way, you can find our IBAN here:",
+    "gifts_details": "Your presence at our wedding is the most beautiful gift we could wish for 🥰. Since we live in Paris and already have the essentials at home, we have not created a gift list. However, if you would like to mark this special occasion in another way and contribute to our honeymoon, here is our IBAN:",
     "iban": "IBAN: FR76 2823 3000 01017 8738 3149 13",
     "bring_date": "Can I bring a date?",
     "bring_date_details": "We would love to accommodate everyone, but the guest list is limited, and all attendees have been carefully selected to ensure no one feels left out."
@@ -80,6 +80,9 @@
   },
   "presence": {
     "title":"RSVP",
-    "confirmar":"Attendance Confirmation Link"
+    "confirmar":"Attendance Confirmation Link",
+    "day": "28",
+    "month":"february 2025",
+    "due_date":"We remind you that the deadline to confirm your presence is February 28th. Please let us know your response by this date. Your confirmation is important to us. Thanks!"
   }
 }

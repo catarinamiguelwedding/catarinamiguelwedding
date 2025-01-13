@@ -57,7 +57,7 @@
     "catarina_contact": "Catarina Borges : +33664387792",
     "miguel_contact": "Miguel Esteves : +33771841087",
     "gifts": "Cadeaux :",
-    "gifts_details": "Your presence at our wedding is the most beautiful gift we could wish for 🥰. Since we live in Paris and already have the essentials at home, we have not created a gift list. However, if you would like to mark this special occasion in another way and contribute to our honeymoon, here is our IBAN:",
+    "gifts_details": "Votre présence à notre mariage est le plus beau cadeau que nous puissions souhaiter 🥰. Comme nous vivons à Paris et avons déjà l’essentiel à la maison, nous n’avons pas créé de liste de cadeaux. Cependant, si vous souhaitez marquer cette occasion spéciale d’une autre manière et contribuer à notre lune de miel, voici notre IBAN:",
     "iban": "IBAN: FR76 2823 3000 01017 8738 3149 13",
     "bring_date": "Puis-je venir accompagné(e) ?",
     "bring_date_details": "Nous aimerions accueillir tout le monde, mais la liste des invités est limitée et tous les participants ont été soigneusement sélectionnés pour que personne ne se sente exclu."
@@ -81,7 +81,11 @@
   },
   "presence": {
     "title":"RSVP",
-    "confirmar":"Lien de confirmation de présence"
+    "confirmar":"Lien de confirmation de présence",
+    "day": "28",
+    "month":"février 2025",
+    "due_date":"Nous vous rappelons aimablement que la date limite pour confirmer votre présence est le 28 février. Merci de nous faire part de votre réponse avant cette date. Votre confirmation est importante pour nous. Merci!"
+
   }
   }
   
