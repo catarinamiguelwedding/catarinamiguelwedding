@@ -179,27 +179,6 @@
 	});
 	}
 
-	function initializeCountdown() {
-	document.querySelector('.simply-countdown-one').innerHTML = '';
-
-	simplyCountdown('.simply-countdown-one', {
-		year: 2025,
-		month: 5,
-		day: 31,
-		hours: 16,
-		minutes: 0,
-		seconds: 0,
-		enableUtc: true,
-		words: {
-		days: i18next.t('countdown.days'),
-		hours: i18next.t('countdown.hours'),
-		minutes: i18next.t('countdown.minutes'),
-		seconds: i18next.t('countdown.seconds')
-		},
-		plural: true
-	});
-	}
-
 	function changeLanguage(lang) {
 	localStorage.setItem('selectedLanguage', lang);
 	loadJSON(lang, function () {
