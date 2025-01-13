@@ -8,12 +8,14 @@
   "header": {
     "title": "Catarina & Miguel",
     "subtitle": "We Are Getting Married",
-    "save_date": "Save the date"
+    "save_date": "Save the date",
+    "data":"31.05.2025"
+
   },
   "events": {
     "main_ceremony": "Main Ceremony",
     "wedding_party": "Wedding Party",
-    "main_ceremony_details": "Guests will be welcomed with soft drinks from 15h45 followed by the wedding ceremony.",
+    "main_ceremony_details": "Guests will be welcomed with soft drinks from 15h30 followed by the wedding ceremony.",
     "wedding_party_details": "\"Copo de água\" Drinks and starters with music followed by dinner and many more surprises!"
   },
   "countdown": {
@@ -34,12 +36,12 @@
     "groom_name": "Miguel Esteves",
     "groom_description": "Born and raised in Barreiro – the hidden gem of the Age of Discoveries! While others praise Lisbon and Porto, we in Barreiro know the real magic happened here, with salt, shipbuilding, and, well, ME! In 2016, I packed my bags and headed to Paris. In May 2017, I discovered something even better than new continents: Catarina!",
     "bride_name": "Catarina Borges",
-    "bride_description": "Born in Lisbon, has more miles than Miguel! From an early age, she’s been exploring the world like a true \"discoverer,\" living in places as diverse as Belgium, Portugal, the Saudi Arabia, South Korea, and of course, France. If Portugal was a pioneer in the Age of Discoveries, she definitely followed in those footsteps — only she traded the caravels for airplanes!",
+    "bride_description": "Born in Lisbon, has more miles than Miguel! From an early age, she’s been exploring the world like a true \"explorer,\" living in places as diverse as Belgium, Portugal, the Saudi Arabia, South Korea, and of course, France. If Portugal was a pioneer in the Age of Discoveries, she definitely followed in those footsteps — only she traded the caravels for airplanes!",
     "our_story_title": "Our Story",
     "our_story_description": "We didn’t need compasses to find each other... just an app!",
     "dating_anniversary_title": "Dating anniversary",
     "dating_anniversary_date": "May 25, 2017",
-    "dating_anniversary_description": "After a really fun first date, we decided to go for a second one, this time at an Ethiopian restaurant that Catarina had heard about. The atmosphere was great, the food was amazing, and after dinner, we shared our first kiss.",
+    "dating_anniversary_description": "After a really fun first date, we decided to go for a second one, this time at an Ethiopian restaurant that Catarina had heard about. The atmosphere was great, the food was amazing.",
     "proposal_title": "Marriage proposal",
     "proposal_date": "September 3, 2023",
     "proposal_description": "For the marriage proposal, Miguel took advantage of our trip to Greece and proposed to Catarina after reading a poem by Vinicius de Moraes called \"Soneto de fidelidade\" on a dark beach, illuminated only by the lights of the boats."
@@ -56,7 +58,7 @@
     "contacts": "Contacts:",
     "gifts": "Gifts:",
     "gifts_details": "Your presence at our wedding is the greatest gift we could ask for 🥰. However, if you'd like to mark the occasion in another way, you can find our IBAN here:",
-    "iban": "IBAN: FR76 3000 3030 8000 0500 3140 126",
+    "iban": "IBAN: FR76 2823 3000 01017 8738 3149 13",
     "bring_date": "Can I bring a date?",
     "bring_date_details": "We would love to accommodate everyone, but the guest list is limited, and all attendees have been carefully selected to ensure no one feels left out."
   },
@@ -75,5 +77,9 @@
     "2022_rio": "Selfie in Rio de Janeiro, Brazil",
     "2023_minions": "Masked party as minions",
     "2024_wedding": "At J&H wedding"
+  },
+  "presence": {
+    "title":"RSVP",
+    "confirmar":"Attendance Confirmation Link"
   }
 }

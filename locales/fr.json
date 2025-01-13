@@ -8,12 +8,13 @@
     "header": {
       "title": "Catarina & Miguel",
       "subtitle": "Nous Allons Nous Marier",
-      "save_date": "Réservez la date"
+      "save_date": "Réservez la date",
+      "data":"31.05.2025"
     },
     "events": {
       "main_ceremony": "Cérémonie Principale",
       "wedding_party": "Fête de Mariage",
-      "main_ceremony_details": "Les invités seront accueillis avec des boissons fraîches dès 15h45 suivies de la cérémonie de mariage.",
+      "main_ceremony_details": "Les invités seront accueillis avec des boissons fraîches dès 15h30 suivies de la cérémonie de mariage.",
       "wedding_party_details": "Boissons et amuse-bouches avec musique, suivis du dîner et de nombreuses surprises!"
     },
     "countdown": {
@@ -34,12 +35,12 @@
     "groom_name": "Miguel Esteves",
     "groom_description": "Né et grandi à Barreiro – le joyau caché de l'âge des découvertes ! Alors que d'autres louent Lisbonne et Porto, nous, à Barreiro, savons que la vraie magie s'est produite ici, avec le sel, la construction navale, et, bien sûr, MOI ! En 2016, j'ai fait mes valises pour Paris. En mai 2017, j'ai découvert quelque chose d'encore mieux que de nouveaux continents : Catarina !",
     "bride_name": "Catarina Borges",
-    "bride_description": "Née à Lisbonne, Catarina a parcouru plus de kilomètres que Miguel ! Dès son plus jeune âge, elle a exploré le monde comme une véritable \"découvreuse,\" vivant dans des endroits aussi divers que la Belgique, le Portugal, l'Arabie Saoudite, la Corée du Sud et, bien sûr, la France. Si le Portugal était pionnier de l'Âge des Découvertes, elle a suivi ces traces — en échangeant les caravelles pour les avions !",
+    "bride_description": "Née à Lisbonne, Catarina a parcouru plus de kilomètres que Miguel ! Dès son plus jeune âge, elle a exploré le monde comme une véritable \"exploratrice,\" vivant dans des endroits aussi divers que la Belgique, le Portugal, l'Arabie Saoudite, la Corée du Sud et, bien sûr, la France. Si le Portugal était pionnier de l'Âge des Découvertes, elle a suivi ces traces — en échangeant les caravelles par les avions !",
     "our_story_title": "Notre Histoire",
     "our_story_description": "Nous n'avions pas besoin de boussoles pour nous trouver... juste une application !",
     "dating_anniversary_title": "Anniversaire de Rencontre",
     "dating_anniversary_date": "25 Mai 2017",
-    "dating_anniversary_description": "Après un premier rendez-vous très amusant, nous avons décidé d'en faire un deuxième, cette fois dans un restaurant éthiopien dont Catarina avait entendu parler. L'atmosphère était géniale, la nourriture incroyable, et après le dîner, nous nous sommes embrassés pour la première fois.",    "proposal_title": "Demande en Mariage",
+    "dating_anniversary_description": "Après un premier rendez-vous très amusant, nous avons décidé d'en faire un deuxième, cette fois dans un restaurant éthiopien dont Catarina avait entendu parler. L'atmosphère était géniale, la nourriture incroyable.",    "proposal_title": "Demande en Mariage",
     "proposal_date": "3 Septembre 2023",
     "proposal_description": "Pour la demande en mariage, Miguel a profité de notre voyage en Grèce et a fait sa demande à Catarina après avoir lu un poème de Vinicius de Moraes appelé \"Soneto de fidelidade\" sur une plage sombre, éclairée uniquement par les lumières des bateaux."
   },
@@ -56,8 +57,8 @@
     "catarina_contact": "Catarina Borges : +33664387792",
     "miguel_contact": "Miguel Esteves : +33771841087",
     "gifts": "Cadeaux :",
-    "gifts_details": "Votre présence à notre mariage est le plus beau cadeau que vous puissiez nous offrir 🥰. Cependant, si vous souhaitez marquer l'occasion d'une autre manière, voici notre IBAN :",
-    "iban": "IBAN : FR76 3000 3030 8000 0500 3140 126",
+    "gifts_details": "Your presence at our wedding is the most beautiful gift we could wish for 🥰. Since we live in Paris and already have the essentials at home, we have not created a gift list. However, if you would like to mark this special occasion in another way and contribute to our honeymoon, here is our IBAN:",
+    "iban": "IBAN: FR76 2823 3000 01017 8738 3149 13",
     "bring_date": "Puis-je venir accompagné(e) ?",
     "bring_date_details": "Nous aimerions accueillir tout le monde, mais la liste des invités est limitée et tous les participants ont été soigneusement sélectionnés pour que personne ne se sente exclu."
   }
@@ -77,6 +78,10 @@
     "2022_rio": "Selfie à Rio de Janeiro, Brésil",
     "2023_minions": "Fête costumée en Minions",
     "2024_wedding": "Au mariage de J&H"
+  },
+  "presence": {
+    "title":"RSVP",
+    "confirmar":"Lien de confirmation de présence"
   }
   }
   

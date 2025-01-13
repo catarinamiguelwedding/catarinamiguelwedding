@@ -8,12 +8,13 @@
   "header": {
     "title": "Catarina & Miguel",
     "subtitle": "Vamos Casar",
-    "save_date": "Reserve a data"
+    "save_date": "Reserve a data",
+    "data":"31.05.2025"
   },
   "events": {
     "main_ceremony": "Cerimónia Principal",
     "wedding_party": "Festa de Casamento",
-    "main_ceremony_details": "Os convidados serão recebidos com bebidas a partir das 16h. Seguidamente será realizada a cerimónia de casamento.",
+    "main_ceremony_details": "Os convidados serão recebidos com bebidas a partir das 15h30. Seguidamente será realizada a cerimónia de casamento.",
     "wedding_party_details": "Bebidas e entradas ao som de música, seguido do jantar e algumas surpresas!"
   },
   "countdown": {
@@ -57,8 +58,8 @@
     "catarina_contact": "Catarina Borges: +33664387792",
     "miguel_contact": "Miguel Esteves: +33771841087",
     "gifts": "Presentes:",
-    "gifts_details": "A sua presença no nosso casamento é o maior presente que poderíamos pedir 🥰. Como vivemos em Paris e na nossa casa já temos o essencial, não criámos uma lista de presentes. No entanto, se desejar marcar a ocasião de outra forma, aqui está o nosso IBAN:",
-    "iban": "IBAN: FR76 3000 3030 8000 0500 3140 126",
+    "gifts_details": "A sua presença no nosso casamento é o maior presente que poderíamos pedir 🥰. Como vivemos em Paris e na nossa casa já temos o essencial, não criámos uma lista de presentes. No entanto, se desejar marcar a ocasião de outra forma e contribuir para a nossa lua de mel, aqui está o nosso IBAN:",
+    "iban": "IBAN: FR76 2823 3000 01017 8738 3149 13",
     "bring_date": "Posso levar um acompanhante?",
     "bring_date_details": "Gostaríamos de acolher todos, mas a lista de convidados é limitada e todos foram cuidadosamente selecionados para que ninguém se sinta excluído."
   },
@@ -77,5 +78,9 @@
     "2022_rio": "Selfie no Rio de Janeiro, Brasil",
     "2023_minions": "Festa de fantasia como Minions",
     "2024_wedding": "No casamento de J&H"
+  },
+  "presence": {
+    "title":"RSVP",
+    "confirmar":"Link de confirmação de presença"
   }
 }
